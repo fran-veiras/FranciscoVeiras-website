@@ -49,6 +49,7 @@ export default function Home() {
       <div className="projects-container">
         <h1 className={styles.firstTitle}>Projects</h1>
         <div className="projects-flex">
+          <span />
           {projects.map((proj) => (
             <Projects
               key={proj.title}
@@ -72,6 +73,21 @@ export default function Home() {
           column-gap: 15px;
           padding: 20px 20px;
           overflow-x: scroll;
+          padding-bottom: 7%;
+        }
+
+        span {
+          width: 20%;
+          height: 100%;
+          background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 0) 0%,
+            rgba(9, 9, 121, 0) 13%,
+            rgba(255, 255, 255, 1) 98%
+          );
+          position: absolute;
+          right: 0;
+          z-index: 9998;
         }
 
         .projects-container {
@@ -79,6 +95,7 @@ export default function Home() {
           margin: 0 auto;
           margin-top: 3rem;
           margin-bottom: 10%;
+          position: relative;
         }
 
         @media only screen and (min-width: 1000px) and (max-width: 1920px) {

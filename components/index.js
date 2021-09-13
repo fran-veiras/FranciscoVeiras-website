@@ -16,12 +16,19 @@ export default function Projects({ title, url, img, technologies }) {
         .conatiner {
           border-radius: 8px;
           flex: 1;
-          padding: 20px;
+          padding: 30px 40px;
           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+          transition: 0.2s;
         }
+
+        .conatiner:hover {
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+          transition: 0.2s;
+        }
+
         img {
-          width: 400px;
-          filter: opacity(40%) blur(2px);
+          width: 250px;
+          filter: opacity(50%) blur(2px);
         }
 
         @media only screen and (min-width: 275px) and (max-width: 860px) {
