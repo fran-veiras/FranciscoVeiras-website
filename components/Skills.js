@@ -76,7 +76,7 @@ export const Skills = () => {
         @media only screen and (min-width: 275px) and (max-width: 860px) {
           .container {
             flex-direction: column;
-            row-gap: 15px;
+            gap: 15px;
           }
         }
 

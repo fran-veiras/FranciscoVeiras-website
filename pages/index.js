@@ -113,7 +113,7 @@ export default function Home() {
           nav {
             flex-direction: column;
             align-items: center;
-            row-gap: 15px;
+            gap: 15px;
           }
         }
 
