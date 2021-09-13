@@ -7,6 +7,7 @@ import { Skills } from '../components/Skills';
 import { useEffect, useState } from 'react';
 import newProjects from '../components';
 import Projects from '../components';
+import Head from 'next/head';
 
 export default function Home() {
   const [projects, setProjects] = useState([]);
@@ -23,6 +24,10 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Francisco Veiras</title>
+        <link className="me" rel="shortcut icon" href="/code.png" />
+      </Head>
       <nav>
         <div className="profile-card">
           <img src="/me.jpeg" alt="profile" />
