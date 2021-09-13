@@ -33,28 +33,6 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
@@ -119,3 +97,18 @@
     flex-direction: column;
   }
 }
+
+.name {
+  font-size: 16px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.firstTitle {
+  font-size: 28px;
+  font-weight: 500;
+}
+
