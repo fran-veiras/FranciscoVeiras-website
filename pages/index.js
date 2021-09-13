@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Francisco Veiras</title>
+        <title>Francisco Veiras - Javascript Dev</title>
         <link className="me" rel="shortcut icon" href="/code.png" />
       </Head>
       <nav>
