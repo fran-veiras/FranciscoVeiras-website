@@ -21,6 +21,7 @@ export default function Projects({ title, url, img, technologies }) {
         }
         img {
           width: 400px;
+          filter: opacity(40%) blur(2px);
         }
 
         @media only screen and (min-width: 275px) and (max-width: 860px) {
