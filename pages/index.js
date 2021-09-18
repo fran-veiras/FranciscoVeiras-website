@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import newProjects from '../components';
 import Projects from '../components';
 import Head from 'next/head';
+import { ProjectLink } from '../components/ProjectLink';
 
 export default function Home() {
   const [projects, setProjects] = useState([]);
@@ -43,7 +44,7 @@ export default function Home() {
         </div>
       </nav>
       <Skills />
-
+      <ProjectLink />
       {/* projects */}
 
       <div className="projects-container">
@@ -71,9 +72,15 @@ export default function Home() {
         .projects-flex {
           display: flex;
           column-gap: 15px;
-          padding: 20px 20px;
           overflow-x: scroll;
+          padding: 20px 20px;
           padding-bottom: 7%;
+        }
+
+        @media only screen and (min-width: 275px) and (max-width: 860px) {
+          .projects-flex {
+            padding: 20px 0px;
+          }
         }
 
         span {

@@ -35,6 +35,9 @@ export default function Projects({ title, url, img, technologies }) {
           img {
             width: 250px;
           }
+          .conatiner {
+            padding: 20px;
+          }
         }
 
         h1 {

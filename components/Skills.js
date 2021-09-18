@@ -71,12 +71,14 @@ export const Skills = () => {
         .container {
           display: flex;
           column-gap: 15px;
+          padding: 20px 20px;
         }
 
         @media only screen and (min-width: 275px) and (max-width: 860px) {
           .container {
             flex-direction: column;
             gap: 15px;
+            padding: 0px;
           }
         }
 
