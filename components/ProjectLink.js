@@ -18,7 +18,7 @@ export const ProjectLink = () => {
                 content to learn frontend for free. Communities, courses and
                 writings.
                 <br />
-                users can login and collaborate
+                There you can find users can login and collaborate
               </p>
               <p>
                 <b>NextJs, Style jsx, Firebase, Firestore </b>
