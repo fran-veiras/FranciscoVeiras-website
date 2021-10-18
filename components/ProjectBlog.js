@@ -2,30 +2,33 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 
-export const ProjectLink = () => {
+export const ProjectBlog = () => {
   return (
     <div className="container-project-link">
-      <a href="https://document-link.vercel.app/">
+      <h1 className={styles.firstTitle}>Latest apps</h1>
+      <a href="https://blog-franveiras.vercel.app/">
         <div className="container">
           <div className="profile">
             <div className="text-container">
-              <a className="link" href="https://document-link.vercel.app/">
-                <h1 className={styles.title}>Document.link</h1>
+              <a className="link" href="https://blog-franveiras.vercel.app/">
+                <h1 className={styles.title}>Blog Francisco Veiras</h1>
               </a>
               <p>
-                document.link is an application made with the aim of finding
-                content to learn frontend for free. Communities, courses and
-                writings.
-                <br />
-                There you can find users can login and collaborate
+                Blog Francisco Veiras is where I write articles about
+                information or technologies that worked for me. The function is
+                not to teach.
+                <br />I like writing ❤️
               </p>
               <p>
-                <b>NextJs, Style jsx, Firebase, Firestore </b>
+                <b>
+                  NextJs, Chakra Ui, Dynamic routes, Firestore, Firebase auth &
+                  firebase storage
+                </b>
               </p>
             </div>
             <div className="img-container">
-              <a href="https://document-link.vercel.app/">
-                <img src="/document.png" alt="img app"></img>
+              <a href="https://blog-franveiras.vercel.app/">
+                <img src="/blog.png" alt="img app"></img>
               </a>
             </div>
           </div>
@@ -42,6 +45,7 @@ export const ProjectLink = () => {
         .container-project-link {
           width: 90%;
           margin: 0 auto;
+          margin-top: 2rem;
         }
 
         .profile {

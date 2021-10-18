@@ -9,6 +9,8 @@ import newProjects from '../components';
 import Projects from '../components';
 import Head from 'next/head';
 import { ProjectLink } from '../components/ProjectLink';
+import { ProjectBlog } from '../components/ProjectBlog';
+import Yt from '../public/youtube';
 
 export default function Home() {
   const [projects, setProjects] = useState([]);
@@ -39,11 +41,13 @@ export default function Home() {
         </div>
         <div className="social-media">
           <SvgComponent className="icon" />
+          <Yt className="icon" />
           <TwitterComponent className="icon" />
           <LinkedinComponent className="icon" />
         </div>
       </nav>
       <Skills />
+      <ProjectBlog />
       <ProjectLink />
       {/* projects */}
 
@@ -105,9 +109,15 @@ export default function Home() {
           position: relative;
         }
 
-        @media only screen and (min-width: 1000px) and (max-width: 1920px) {
+        @media only screen and (min-width: 1520px) and (max-width: 1920px) {
           .projects-container {
             width: 60%;
+          }
+        }
+
+        @media only screen and (min-width: 1200px) and (max-width: 1520px) {
+          .projects-container {
+            width: 70%;
           }
         }
 
@@ -132,9 +142,15 @@ export default function Home() {
           justify-content: space-between;
         }
 
-        @media only screen and (min-width: 1000px) and (max-width: 1920px) {
+        @media only screen and (min-width: 1520px) and (max-width: 1920px) {
           nav {
             width: 60%;
+          }
+        }
+
+        @media only screen and (min-width: 1200px) and (max-width: 1520px) {
+          nav {
+            width: 70%;
           }
         }
 

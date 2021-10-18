@@ -62,7 +62,13 @@ export const Skills = () => {
           margin-top: 2rem;
         }
 
-        @media only screen and (min-width: 1000px) and (max-width: 1920px) {
+        @media only screen and (min-width: 1200px) and (max-width: 1520px) {
+          .containerSkills {
+            width: 70%;
+          }
+        }
+
+        @media only screen and (min-width: 1520px) and (max-width: 1920px) {
           .containerSkills {
             width: 60%;
           }

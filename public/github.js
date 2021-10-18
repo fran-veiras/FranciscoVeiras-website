@@ -17,7 +17,7 @@ function SvgComponent(props) {
         />
         <style jsx>{`
           svg {
-            margin: 5px 5px;
+            margin: 10px 10px;
             cursor: pointer;
           }
         `}</style>

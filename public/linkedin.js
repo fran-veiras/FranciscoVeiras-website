@@ -20,7 +20,7 @@ function LinkedinComponent(props) {
         <path d="M417.2 64H96.8C79.3 64 64 76.6 64 93.9V415c0 17.4 15.3 32.9 32.8 32.9h320.3c17.6 0 30.8-15.6 30.8-32.9V93.9C448 76.6 434.7 64 417.2 64zM414 416H99.1c-1.8 0-3.1-1.4-3.1-3.1V98c0-1.1 1-2 2-2h316c1 0 2 1 2 2v316c0 .9-.9 2-2 2z" />
         <style jsx>{`
           svg {
-            margin: 5px 5px;
+            margin: 10px 10px;
             cursor: pointer;
           }
         `}</style>
