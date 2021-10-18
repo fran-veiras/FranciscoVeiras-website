@@ -4,7 +4,7 @@ function Yt(props) {
   return (
     <a href="https://www.youtube.com/channel/UCHoHvLHyTyqZp-fhQhS4Dfg">
       <svg
-        viewBox="0 0 500 500"
+        viewBox="0 0 520 500"
         height={30}
         width={30}
         xmlns="http://www.w3.org/2000/svg"
