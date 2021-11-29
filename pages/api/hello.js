@@ -1,6 +1,12 @@
 /* eslint-disable import/no-anonymous-default-export */
 const projectsData = [
   {
+    title: 'Challenge-alkemy-SuperHeroAPI',
+    url: 'https://github.com/francisco-svg761/alkemy-challenge-superhero_app',
+    img: '/superhero.png',
+    technologies: 'NextJs, Formik, Axios, Chakra UI',
+  },
+  {
     title: 'tw-clone',
     url: 'https://twitter-clone-lovat.vercel.app/',
     img: '/twclone.png',
