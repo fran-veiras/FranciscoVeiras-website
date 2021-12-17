@@ -11,6 +11,7 @@ import Head from 'next/head';
 import { ProjectLink } from '../components/ProjectLink';
 import { ProjectBlog } from '../components/ProjectBlog';
 import Yt from '../public/youtube';
+import { ProjectAboutme } from '../components/ProjectAboutme';
 
 export default function Home() {
   const [projects, setProjects] = useState([]);
@@ -47,6 +48,7 @@ export default function Home() {
         </div>
       </nav>
       <Skills />
+      <ProjectAboutme />
       <ProjectBlog />
       <ProjectLink />
       {/* projects */}

@@ -2,32 +2,31 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 
-export const ProjectBlog = () => {
+export const ProjectAboutme = () => {
   return (
     <div className="container-project-link">
-      <a href="https://blog-franveiras.vercel.app/">
+      <h1 className={styles.firstTitle}>Latest apps</h1>
+      <a href="https://aboutme-cards.vercel.app/">
         <div className="container">
           <div className="profile">
             <div className="text-container">
-              <a className="link" href="https://blog-franveiras.vercel.app/">
-                <h1 className={styles.title}>Blog Francisco Veiras</h1>
+              <a className="link" href="https://aboutme-cards.vercel.app/">
+                <h1 className={styles.title}>AboutMe App</h1>
               </a>
               <p>
-                Blog Francisco Veiras is where I write articles about
-                information or technologies that worked for me. The function is
-                not to teach.
-                <br />I like writing ❤️
+                AboutMe is a platform where the user can create a card with
+                professional information and share it on all their social
+                networks. User can register with both Google and GitHub
               </p>
               <p>
                 <b>
-                  NextJs, Chakra Ui, Dynamic routes, Firestore, Firebase auth &
-                  firebase storage
+                  NextJs, Chakra Ui, Dynamic routes, Firestore & Firebase auth
                 </b>
               </p>
             </div>
             <div className="img-container">
-              <a href="https://blog-franveiras.vercel.app/">
-                <img src="/blog.png" alt="img app"></img>
+              <a href="https://aboutme-cards.vercel.app/">
+                <img src="/aboutme.png" alt="img app"></img>
               </a>
             </div>
           </div>
@@ -44,6 +43,7 @@ export const ProjectBlog = () => {
         .container-project-link {
           width: 90%;
           margin: 0 auto;
+          margin-top: 2rem;
         }
 
         .profile {
