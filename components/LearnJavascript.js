@@ -33,7 +33,7 @@ export const LearnJavascript = () => {
             padding: 20px 20px;
             grid-gap: 50px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
@@ -45,18 +45,25 @@ export const LearnJavascript = () => {
           }
           .container {
             width: 90%;
-            padding: 0px;
             margin: 0 auto;
           }
           @media only screen and (min-width: 1200px) and (max-width: 1520px) {
             .container {
               width: 70%;
+              padding: 20px 20px;
+            }
+            .card {
+              flex-direction: row;
             }
           }
 
           @media only screen and (min-width: 1520px) and (max-width: 1920px) {
             .container {
               width: 60%;
+              padding: 20px 20px;
+            }
+            .card {
+              flex-direction: row;
             }
           }
           .users-number {
