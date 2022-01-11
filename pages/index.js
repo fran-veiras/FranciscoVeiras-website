@@ -12,6 +12,7 @@ import { ProjectLink } from '../components/ProjectLink';
 import { ProjectBlog } from '../components/ProjectBlog';
 import Yt from '../public/youtube';
 import { ProjectAboutme } from '../components/ProjectAboutme';
+import { LearnJavascript } from '../components/LearnJavascript';
 
 export default function Home() {
   const [projects, setProjects] = useState([]);
@@ -48,6 +49,7 @@ export default function Home() {
         </div>
       </nav>
       <Skills />
+      <LearnJavascript />
       <ProjectAboutme />
       <ProjectBlog />
       <ProjectLink />

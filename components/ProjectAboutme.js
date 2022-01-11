@@ -10,6 +10,9 @@ export const ProjectAboutme = () => {
         <div className="container">
           <div className="profile">
             <div className="text-container">
+              <div className="users-number">
+                <p>+100 users</p>
+              </div>
               <a className="link" href="https://aboutme-cards.vercel.app/">
                 <h1 className={styles.title}>AboutMe App</h1>
               </a>
@@ -100,6 +103,18 @@ export const ProjectAboutme = () => {
         }
         .link {
           cursor: pointer;
+        }
+        .users-number {
+          background: #0070f3;
+          border-radius: 7px;
+          display: inline-block;
+          margin: 0px;
+          padding: 5px;
+        }
+
+        .users-number p {
+          margin: 0px;
+          color: #fff;
         }
       `}</style>
     </div>
